@@ -1,6 +1,6 @@
 <template>
   <div class="mu-timeline-item">
-    <div v-if="!last" class="mu-timeline-item-line" :style="lineStyle"></div>
+    <div v-if="!last" class="mu-timeline-item-line lines" :style="lineStyle"></div>
     <div class="mu-timeline-item-icon">
       <slot name="icon" :style="customedStyle" class="mu-timeline-item-customed">
         <div :style="iconStyle"></div>
